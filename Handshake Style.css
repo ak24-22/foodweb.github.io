@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#F2F2F2;
+	color:#4D4D4D;
+	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
+	margin:0em;
+	padding:0em;
+}
+
+section {
+	margin:1em;
+}
+
+.sections{
+	display:flex;
+	gap:1em;
+	margin:1em 0em;
+}
+
+p.Sec-Title {
+	font-family:Segoe Script, Verdana, Geneva, sans-serif;
+	font-size:2rem;
+	margin:0em;
+}
+
+/*  ____________________________________  */
+/* |                                    | */
+/* |-----> Navigarion Bar & Logoo <-----| */
+/* |____________________________________| */
+
+.LogoNav {
+	margin-bottom:2em;
+	margin-left:1em;
+	margin-right:1em;
+	margin-top:1em;
+}
+
+header {
+	display:flex;
+	gap:55em;
+}
+
+.Handshake_Logo {
+	height:3em;
+	width:12em;
+	float:left;
+}
+
+nav {
+	margin-top:1em;
+}
+
+a {
+	color:#4D4D4D;
+	font-size:1.5rem;
+	cursor:pointer;
+}
+
+a:hover{
+	color:#AB7800;
+}
+
+ul {
+	list-style-type:none;
+	display:inline;
+	margin:0em;
+}
+
+li {
+	margin:0.5em;
+	display:inline;
+}
+
+
+/*  ___________________________________________________  */
+/* |                                                   | */
+/* |-----> P1-Section 1: Our Values & CTA Button <-----| */
+/* |___________________________________________________| */
+
+
+p.Company{
+	width:50%;
+	font-size:1.3rem;
+	margin:0em;
+}
+
+img.Sandwich{
+	height:11em;
+	width:18em;
+	margin:0.5em 11.3em;
+}
+
+.ns-btn {
+	Flex-grow:1em;
+	width:50%;
+}
+
+span{
+	color:#AB7800;
+}
+
+p.Sandwich {
+	font-family:Segoe UI,Verdana, Geneva, sans-serif;
+	font-size:1.5rem;
+	font-style:italic;
+	text-align:center;
+	margin:0em;
+}
+
+.CTA {
+	margin:0em 11.3em;
+}
+
+button.CTA_Btn {
+	background-color:#EFAF00;
+	font-family:Segoe UI,Verdana, Geneva, sans-serif;
+	font-size:1.2rem;
+	font-style:italic;
+	text-align:center;
+	color:#000;
+	border:transparent;
+	padding:0.5em 0.5em;
+	margin:0em 0em;
+	transition:background-color 0.5s, color 0.5s;
+	cursor:pointer;
+	width:100%;
+}
+
+button.CTA_Btn:hover {
+	background-color:#000;
+	color:#EFAF00;
+}
+
+/*  _______________________________________  */
+/* |                                       | */
+/* |-----> P1-Section 2: Latest Blog <-----| */
+/* |_______________________________________| */
+
+img.Blog_img {
+	height:10em;
+	width:7em;
+}
+
+p.Info {
+	font-size:1.3rem;
+	margin:0em;
+}
+
+.Blog_CTA {
+	display:flex;
+	gap:0.2em;
+}
+
+
+button.CTA_2 {
+	color:#EFAF00;
+	font-size:1rem;
+	color:#323232;
+	padding:0em;
+	margin:0em;
+	cursor:pointer;
+	border:transparent;
+}
+
+button.CTA_2:hover {
+	text-decoration:underline;
+	font-style:italic;
+	color:#AB7800;
+}
+
+/*  ________________________________  */
+/* |                                | */
+/* |-----> P1-Section 3: FAQs <-----| */
+/* |________________________________| */
+
+button.CTA_3 {
+	color:#EFAF00;
+	font-size:1rem;
+	color:#323232;
+	padding:0em 0em;
+	margin:0em 0em;
+	cursor:pointer;
+	border:transparent;
+}
+
+button.CTA_3:hover {
+	text-decoration:underline;
+	font-style:italic;
+	color:#AB7800;
+}
+pre {
+	font-family:Futura Bk BT,Verdana, Geneva, sans-serif;
+	font-size:1rem;
+}	
+
+pre.strong {
+	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+	font-size:1rem;
+}
+
+/*  ____________________  */
+/* |                    | */
+/* |-----> Footer <-----| */
+/* |____________________| */
+
+.Copyright_Nav {
+	display:flex;
+	gap:55rem;
+}
+p.Copyright {
+	font-size:0.9rem;
+}
+
+.Call_Email {
+	margin:1em;
+}
+
+p.Call {
+	margin:0em;
+}
+
+p.Email {
+	text-decoration:underline;
+	cursor:pointer;
+	margin:0em;
+}
+
+p.Email:hover {
+	text-decoration:underline;
+	color:#AB7800;
+}
+nav {
+	margin-bottom:1em;
+	float:right;
+}
+
+a {
+	color:#4D4D4D;
+	font-size:0.9rem;
+	cursor:pointer;
+}
+
+a:hover{
+	color:#AB7800;
+}
+
+ul {
+	list-style-type:none;
+	display:inline;
+	margin:0em;
+}
+
+li {
+	margin:0.5em;
+	display:inline;
+}
+
+/*  ________________________________________  */
+/* |                                        | */
+/* |-----> P2-Section 1: Blog Banners <-----| */
+/* |________________________________________| */
+
+.Section_1_Blogs {
+	margin-left:15em;
+	margin-right:5em;
+	margin-top:3em;
+	margin-bottom:3em;
+	display:block;
+}
+.BB_Snacks {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.BB_Snacks img{
+	height:100%;
+	width:100%;
+}
+
+.BB_HS_2 {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.BB_HS_2:hover {
+	opacity:1;
+}
+
+.BB_Chi {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.BB_Chi img{
+	height:100%;
+	width:100%;
+}
+
+.BB_Chi_2 {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.BB_Chi_2:hover {
+	opacity:1;
+}
+
+.BB_Ind {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.BB_Ind img{
+	height:100%;
+	width:100%;
+}
+
+.BB_Ind_2 {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.BB_Ind_2:hover {
+	opacity:1;
+}
+
+.BB_Jap {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.BB_Jap img{
+	height:100%;
+	width:100%;
+}
+
+.BB_Jap_2 {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.BB_Jap_2:hover {
+	opacity:1;
+}
+
+.BB_Desserts {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.BB_Desserts img{
+	height:100%;
+	width:100%;
+}
+
+.BB_Desserts_2 {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.BB_Desserts_2:hover {
+	opacity:1;
+}
+
+/*  ____________________________________  */
+/* |                                    | */
+/* |-----> P3-Section 1: Shop Menu<-----| */
+/* |____________________________________| */
+
+.Section_1_Shop {
+	margin-top:3em;
+	margin-bottom:3em;
+	margin-left:19em;
+	margin-right:15em;
+	
+}
+
+.Shop_Menu_Image {
+	height:60em;
+	width:35em;
+	text-align:center;
+}
+
+/*  _________________________________  */
+/* |                                 | */
+/* |-----> P4-Section 1: Forms <-----| */
+/* |_________________________________| */
+
+
+label{
+	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+	font-size:1rem;
+}
+
+form {
+	display:flex;
+	gap:0.5em;
+	padding:1em;
+	margin:1em;
+	margin-left:0em;
+	padding-left:0em;
+}
+
+textarea {
+	width:20em;
+	height:5em;
+	alignment-baseline:central;
+}
+
+button.CF {
+	background-color:#555;
+	color:#FFF;
+	padding:0.2em 1em;
+	margin:0em 0em;
+	cursor:pointer;
+	border:transparent;
+	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+	font-size:1rem;
+	font-style:italic;
+
+}
+
+button.CF:hover {
+	background-color:#111;
+}
+
+/*  ________________________________________  */
+/* |                                        | */
+/* |-----> P4-Section 2: Social Media <-----| */
+/* |________________________________________| */
+
+.Follow_SM {
+	margin-top:1em;
+}
+.Section_3_Follow_SM {
+	display:flex;
+	gap:0.5em;
+	
+}
+
+.InstagramSM {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:0.2em;
+}
+
+.InstagramSM svg{
+	height:100%;
+	width:100%;
+}
+
+.Gold_Insta {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Gold_Insta:hover {
+	opacity:1;
+}
+
+.TiktokSM {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:0.2em;
+}
+
+.TiktokSM svg{
+	height:100%;
+	width:100%;
+}
+
+.Gold_TT {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Gold_TT:hover {
+	opacity:1;
+}
+
+.PinterestSM {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:0.2em;
+}
+
+.PinterestSM svg{
+	height:100%;
+	width:100%;
+}
+
+.Gold_Pin {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Gold_Pin:hover {
+	opacity:1;
+}
+
+.TwitterSM {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:0.2em;
+}
+
+.TwitterSM svg{
+	height:100%;
+	width:100%;
+}
+
+.Gold_Twitter {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Gold_Twitter:hover {
+	opacity:1;
+}
+
